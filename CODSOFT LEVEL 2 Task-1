@@ -1,0 +1,129 @@
+A tribute page is a web page created to honor and celebrate someone you admire.
+It can be for anyone who has had a significant impact on your life,
+a historical figure you find inspiring, or even a fictional character that resonates with you.
+
+HTML:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+ 
+<body>
+    <main id="main">
+        <h1 id="title">
+            N. T. RAMA RAO
+        </h1>
+        <div id="img">
+            <img src="https://res.cloudinary.com/dnrndkg5f/image/upload/v1718174399/jhre3t6bqf7sxsf0yiqb.png">
+            <small id="caption">
+                <P>
+                    The Great Andhra pradhesh chief minister and
+                he was a prominent Indian actor, filmmaker who played a leading
+                role in the development of Andhra pradhesh.
+                </P>
+            </small>
+        </div>
+ 
+        <div id="tribute-data">
+            <h1 class="title-APJ">
+                About the Legend
+            </h1>
+            <p>
+                <h3>Early Life and Film Career</h3>
+                <br>
+                ☛ <b>Birth</b>: N.T. Rama Rao was born on May 28, 1923, in Nimmakuru, Madras Presidency (now in Andhra Pradesh).
+                <br><br>
+                ☛ <b>Film Debut</b>: He made his film debut in 1949 with the movie "Mana Desam."
+                <br><br>
+                ☛ <b>Stardom</b>: NTR quickly rose to fame, becoming one of the most celebrated actors in Telugu cinema. He was particularly known for his roles in mythological films, portraying deities such as Lord Krishna and Lord Rama.
+                <br><br>
+                ☛  <b>Prolific Career</b>: Over his career, he acted in over 300 films. Some of his notable movies include <b>"Pathala Bhairavi"</b>, <b>"Maya Bazaar"</b>, <b>"Nartanasala"</b>, and <b>"Dana Veera Sura Karna"</b>.
+                <br><br>
+                <h3>Political Career</h3>
+                <br>
+                ☛ <b>Political Entry</b>: NTR entered politics in 1982, founding the <b>Telugu Desam Party (TDP)</b> with the aim of advocating for Telugu pride and regional self-respect.
+                <br><br> 
+                ☛  <b>Chief Minister</b>: He served as the Chief Minister of Andhra Pradesh for three terms (1983-1984, 1984-1989, and 1994-1995).
+                <br><br> 
+                ☛ <b>Reforms</b>: His administration was known for implementing several populist schemes, including the establishment of rice subsidies, the promotion of women's education, and various welfare programs for the poor.
+                <br><br>
+                <h3> Legacy</h3>
+                <br>
+                ☛ <b>Cultural Icon</b>: NTR's portrayal of gods in films made him a cultural icon and contributed to his mass appeal in politics.
+                <br><br> 
+                ☛  <b>Political Influence</b>: He is remembered for his efforts to decentralize power and bring administrative reforms in the state.
+                <br><br> 
+                ☛ <b>Posthumous Recognition</b>: Even after his death on January 18, 1996, NTR continues to be celebrated for his contributions to cinema and politics, with his legacy enduring in the form of awards, statues, and ongoing public admiration.
+                <br><br>
+                <h3>Personal Life</h3>
+                <br> 
+                ☛  <b>Family</b>: NTR's family has continued his political and film legacy. His son, Nandamuri Balakrishna, is a well-known actor and politician, and his grandson, N.T. Rama Rao Jr., is a prominent actor in Telugu cinema.
+                <br>
+                N.T. Rama Rao's life was marked by his dual impact on the cultural and political fields, making him a significant figure in Andhra Pradesh's history.
+            </p>
+ 
+        </div>
+        <br>
+        For more information,
+        check out
+        <a id="tribute-link" href="#">
+            <b>N. T. RAMA RAO</b> 
+        </a>on Wikipedia. [
+            <small>Developed by @<a href="#">
+                    Vijay raghava.</a>
+        </small>]
+    </main>
+</body>
+ 
+</html>
+
+CSS:
+body {
+    background-color: yellow;
+    margin: 10%;
+    border: 2px solid red;
+}
+main .h1{
+    margin: 0%;
+}
+#title {
+    text-align: center;
+    text-shadow: 5px 5px 10px white;
+    font-size: 7vh;
+}
+type of image */
+img {
+    display: inline-block;
+    width: 100%;
+}
+#caption {
+    font-size: 17px;
+    font-family: Gill Sans;
+    color: black;
+}
+div#tribute-data {
+    background-color: rgb(46, 139, 87, 0.25);
+    box-shadow: 10px 10px 10px #98FB98;
+    font-family: Georgia;
+    padding: 25px 25px;
+    margin: 11px;
+    margin-top: 50px;
+}
+h1.title-APJ {
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    text-shadow: 5px 5px 10px black;
+}
+#tribute-link {
+    text-decoration: none;
+    color: black;
+}
+h3{
+    margin: 0;
+    gap: 0;
+}
